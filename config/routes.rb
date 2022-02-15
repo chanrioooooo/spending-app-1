@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  get 'spendings/index'
+  devise_for :users
+
   root to: "spendings#index"
+
+
 end
