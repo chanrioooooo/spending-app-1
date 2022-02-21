@@ -16,7 +16,8 @@
 
 | Column           | Type       | Options                        |
 | ---------------- | ---------- | ------------------------------ |
-| place            | string     | null: false                    |
+| useday           | date       | null: false                    |
+| place            | text     | null: false                    |
 | detail           | text
 | money            | integer    | null: false                    |
 | user             | references | null: false, foreign_key: true |
