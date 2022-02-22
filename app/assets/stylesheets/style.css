@@ -86,8 +86,11 @@ a {
 
 /* フォーム周り */
 
+.indispensable {
+  color: #ea352d;
+}
 
-  input[type="text"] {
+input[type="text"] {
     width: 377px;
     height: 36px;
     background: #ffffff;

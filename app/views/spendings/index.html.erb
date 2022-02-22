@@ -3,11 +3,10 @@
     <% if user_signed_in? %>
       <div class="greeting">
         こんにちは、
-        <%= link_to "#{current_user.nickname}さん" %>
-    
+        <%= "#{current_user.nickname}さん" %>
       </div>
     <% end %>
-  <div class="card__wrapper">
-  </div>
+      <div class="card__wrapper">
+      </div>
   </div>
 </main>
