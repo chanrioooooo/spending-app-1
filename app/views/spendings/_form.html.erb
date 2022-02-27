@@ -20,12 +20,11 @@
     </div>
 
 
-  <div class="field">
-    <%= f.label :place, "場所" %>
-          <span class="indispensable">*</span><br />
-
-      <input class="place" type="text" name="場所">
-  </div>
+        <div class="field">
+            <%= f.label :place, "場所" %>
+              <span class="indispensable">*</span><br />
+          <%= f.text_field :place, class:"text" %>
+        </div>
 
   <div class="field">
     <%= f.label :detail, "内容" %><br />
@@ -33,7 +32,8 @@
   </div>
 
         <div class="field">
-            <%= f.label :detail, "金額" %>          <span class="indispensable">*</span><br />
+            <%= f.label :detail, "金額" %>
+              <span class="indispensable">*</span><br />
           <%= f.text_field :money, class:"text" %>
         </div>
 
